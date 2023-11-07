@@ -1,32 +1,71 @@
 body {
-    background-color: rgb(149, 205, 248);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+  background-color: rgb(149, 205, 248);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 
-    line-height: 25px;
-    
+  line-height: 25px;
 }
 
 main {
-    text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 h1 {
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
-    
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
+.title {
+    margin-top: 130px;
+}
 
 .textbox {
-    text-align:left;
-    font-size: 18px;
-    align-items: center;
-    margin: 0 auto;
-    width: 400px;
-    /* background-color: bisque; */
-    padding: 30px;
-    border-style: solid;
+  text-align: left;
+  font-size: 18px;
+  align-items: center;
+  margin: 0 auto;
+  width: 400px;
+  /* background-color: bisque; */
+  padding: 30px;
+  border-style: solid;
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+    /* margin-left: -150px; */
+}
+
+.main {
+    text-align: center;
+
+}
+
+form input, form textarea {
+    margin-bottom: 12px;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 5px;
+    width: 200px;
+
+}
+
+.submit-button {
+    width: 60px;
+    background-color: blanchedalmond;
+    margin-top: 1px;
+
+}
+
+#labelname {
+    margin-left: -155px;
+}
+
+#labelmessage {
+    margin-left: -145px;
+}
+
+#labelemail {
+    margin-left: -155px;
 }
