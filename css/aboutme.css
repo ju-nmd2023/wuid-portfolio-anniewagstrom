@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(149, 205, 248);
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(78, 149, 226);
+  }
+  
+  li {
+    float: right;
+  }
+  li a {
+    display: block;
+    color: aliceblue;
+    text-align: center;
+    padding: 15px 15px;
+    /* background-color: rgb(78, 149, 226); */
+    text-decoration: none;
+    align-items: center;
+  }

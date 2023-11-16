@@ -1,71 +1,126 @@
 body {
   background-color: rgb(149, 205, 248);
-  background-size: cover;
+  background-size: 0%;
   background-repeat: no-repeat;
   background-attachment: fixed;
-
+  margin-top: auto;
   line-height: 25px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(78, 149, 226);
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  font-family: "Playfair Display";
+  color: aliceblue;
+  text-align: center;
+  padding: 15px 15px;
+  text-decoration: none;
+  align-items: center;
+}
+
+.photoonme {
+  height: 20%;
+  width: 25%;
+  margin-left: 60%;
+  margin-top: -10px;
+  margin-bottom: 25px;
+}
+
+.blueswirls {
+  width: 100%;
+  height: 300px;
 }
 
 main {
   text-align: center;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: "Playfair Display";
 }
 
 h1 {
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-family: "Rock Salt";
+  color: white;
+  font-size: 22px;
+  text-align: center;
+  margin-top: -40px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+h2 {
+  font-family: "Cabin Sketch";
 }
 
 .title {
-    margin-top: 130px;
+  margin-top: 70px;
 }
 
 .textbox {
-  text-align: left;
-  font-size: 18px;
+  text-align: center;
+  font-size: 15px;
+  line-height: 35px;
   align-items: center;
-  margin: 0 auto;
-  width: 400px;
-  /* background-color: bisque; */
-  padding: 30px;
-  border-style: solid;
+  margin: 25px;
+  margin-left: 26%;
+  width: 700px;
 }
 
 form label {
-    display: block;
-    font-weight: bold;
-    /* margin-left: -150px; */
+  display: block;
+  font-weight: bold;
+  /* margin-left: -150px; */
 }
 
 .main {
-    text-align: center;
-
+  text-align: center;
 }
 
-form input, form textarea {
-    margin-bottom: 12px;
-    border: 1px solid;
-    border-radius: 5px;
-    padding: 5px;
-    width: 200px;
+footer {
+  background-color:rgb(78, 149, 226);
+  color: white;
+  padding: 10px;
+  text-align: right;
+  font-family: "Playfair Display";
+  font-size: 13px;
+}
 
+form input,
+form textarea {
+  margin-bottom: 12px;
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 5px;
+  width: 200px;
 }
 
 .submit-button {
-    width: 60px;
-    background-color: blanchedalmond;
-    margin-top: 1px;
-
+  width: 60px;
+  background-color: blanchedalmond;
+  margin-top: 1px;
+  margin-bottom: 100px;
 }
 
 #labelname {
-    margin-left: -155px;
+  margin-left: -155px;
 }
 
 #labelmessage {
-    margin-left: -145px;
+  margin-left: -145px;
 }
 
 #labelemail {
-    margin-left: -155px;
+  margin-left: -155px;
 }
