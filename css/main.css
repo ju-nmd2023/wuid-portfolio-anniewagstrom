@@ -1,3 +1,5 @@
+/* ALL PAGES */
+
 body {
   background-color: rgb(149, 205, 248);
   background-size: 0%;
@@ -5,6 +7,48 @@ body {
   background-attachment: fixed;
   margin-top: auto;
   line-height: 25px;
+}
+
+.blueswirls {
+  width: 100%;
+  height: 300px;
+}
+
+main {
+  text-align: center;
+  font-family: "Playfair Display";
+}
+
+h1 {
+  font-family: "Rock Salt";
+  color: white;
+  font-size: 22px;
+  text-align: center;
+  margin-top: -40px;
+  transition: transform 0.3s ease-in-out;
+}
+
+h1:hover {
+  transform: scale(1.5);
+  text-shadow: 0 0 20px rgba(234, 234, 594, 235);
+}
+
+@keyframes namepop {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.5);
+  }
+}
+
+h2 {
+  font-family: "Cabin Sketch";
+}
+
+a {
+  color: white;
+  text-decoration: none;
 }
 
 ul {
@@ -22,12 +66,83 @@ li {
 li a {
   display: block;
   font-family: "Playfair Display";
-  color: aliceblue;
+  color: #fff;
   text-align: center;
   padding: 15px 15px;
   text-decoration: none;
   align-items: center;
+  transition: transform 0.3s ease-in-out;
 }
+
+li a:hover {
+  transform: scale(1.5);
+  text-shadow: 0 0 20px rgba(234, 234, 594, 235);
+}
+
+@keyframes navpop {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.5);
+  }
+}
+
+footer {
+  background-color: rgb(78, 149, 226);
+  color: white;
+  padding: 5px;
+  text-align: right;
+  font-family: "Playfair Display";
+  font-size: 13px;
+  margin-top: 80px;
+}
+
+/* MAIN PAGE */
+
+.textbox2 {
+  margin-top: 14px;
+  margin-left: 20px;
+  width: 345px;
+  text-align: left;
+}
+
+.textbox3 {
+  margin-top: 350px;
+  margin-left: -850px;
+  text-align: right;
+  width: 330px;
+}
+
+.festival,
+.piano {
+  width: 30%;
+  height: 300px;
+  float: left;
+  display: block;
+  box-sizing: border-box;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+
+.soccer,
+.gym {
+  margin-left: 10px;
+  width: 300px;
+  height: 500px;
+  margin-top: 25%;
+  margin-bottom: -50px;
+}
+
+/* .text {
+  margin-left: 30px;
+  width: 180px;
+  margin-top: 80px;
+  line-height: 30px;
+  text-align:justify;
+} */
+
+/* ABOUT ME PAGE */
 
 .photoonme {
   height: 20%;
@@ -35,30 +150,25 @@ li a {
   margin-top: 15px;
   margin-bottom: 20px;
 }
-
-.blueswirls {
-  width: 100%;
-  height: 300px;
-}
-
-.festival, .piano  {
-  width: 30%;
-  height: 300px;
-  float:left;
-  display: block;
-  box-sizing: border-box;
-  margin-top: 30px;
-  margin-left: 10px;
-
-}
- 
-.soccer, .gym {
-  margin-left: 10px; 
-  width: 300px;
-  height: 500px;
-  margin-top: 25%;
+.textbox {
+  text-align: justify;
+  font-size: 15px;
+  line-height: 35px;
+  align-items: center;
   margin-bottom: -50px;
-}  
+  margin-left: 26%;
+  width: 700px;
+}
+
+.Alma {
+  border-radius: 100%;
+  width: 150px;
+  height: 150px;
+  margin-left: 1000px;
+  margin-top: -800px;
+}
+
+/* MY WORK PAGE */
 
 .bwstripes {
   width: 300px;
@@ -74,8 +184,7 @@ li a {
   grid-template-columns: repeat(auto-fit, 10rem);
   column-gap: 20rem;
   row-gap: 5rem;
-
-} 
+}
 
 .Item-1,
 .Item-2,
@@ -85,7 +194,7 @@ li a {
   text-align: center;
   vertical-align: middle;
   line-height: 60px;
-  background-color:rgb(78, 149, 226);
+  background-color: rgb(78, 149, 226);
   font-size: 17px;
   font-weight: bolder;
   height: 280px;
@@ -104,102 +213,30 @@ li a {
   margin-top: 50px;
 }
 
-.text {
-  margin-left: 30px;
-  width: 180px;
-  margin-top: 80px;
-  line-height: 30px;
-  text-align:justify;
-}
-img {
-  margin-right: 10px;
-}
-
-
-main {
-  text-align: center;
-  font-family: "Playfair Display";
-
-}
-
-h1 {
-  font-family: "Rock Salt";
-  color: white;
-  font-size: 22px;
-  text-align: center;
-  margin-top: -40px;
-}
-
-a {
-  color: white;
-  text-decoration: none;
-}
-
-h2 {
-  font-family: "Cabin Sketch";
-}
-
+/* CONTACT ME PAGE */
 .title {
+  margin-top: 40px;
+}
+
+.main {
+  text-align: center;
   margin-top: 50px;
-}
-
-.textbox {
-  text-align:justify;
-  font-size: 15px;
-  line-height: 35px;
-  align-items: center;
-  margin-bottom: -50px;
-  margin-left: 26%;
-  width: 700px;
-}
-
-.textbox2 {
-  margin-top: 14px;
-  margin-left: 20px;
-  width: 345px;
-  text-align: left;
-}
-
-.textbox3 {
-  margin-top: 350px;
-  margin-left: -850px;
-  text-align: right;
-  width: 340px;
-}
-
-.Alma {
-  border-radius: 100%;
-  width: 150px;
-  height: 150px;
-  margin-left: 1000px;
-  margin-top: -800px;
 }
 
 form label {
   display: block;
   font-weight: bold;
-  /* margin-left: -150px; */
 }
 
-.main {
-  text-align: center;
-  margin-top: 20px;
-}
-
-footer {
-  background-color:rgb(78, 149, 226);
-  color: white;
-  padding: 5px;
-  text-align: right;
-  font-family: "Playfair Display";
-  font-size: 13px;
-  margin-top: 80px;
+.pmessage {
+  margin-bottom: 40px;
 }
 
 form input,
 form textarea {
-  margin-bottom: 12px;
+  margin-bottom: 1px;
   border: 1px solid;
+  border-color: #fff;
   border-radius: 5px;
   padding: 5px;
   width: 200px;
@@ -207,20 +244,37 @@ form textarea {
 
 .submit-button {
   width: 60px;
-  background-color: blanchedalmond;
-  margin-top: 1px;
+  background-color: rgb(78, 149, 226);
+  margin-top: 20px;
   margin-bottom: 50px;
   font-family: "Playfair Display";
+  color: #fff;
+  border-color: rgb(78, 149, 226);
+  transition: transform 0.3s ease-in-out;
+}
+
+.submit-button:hover {
+  transform: scale(1.3);
+  text-shadow: 0 0 20px rgba(234, 234, 594, 235);
+}
+
+@keyframes submitpop {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.3);
+  }
 }
 
 #labelname {
   margin-left: -155px;
 }
 
-#labelmessage {
-  margin-left: -145px;
-}
-
 #labelemail {
   margin-left: -155px;
+}
+
+#labelmessage {
+  margin-left: -140px;
 }
